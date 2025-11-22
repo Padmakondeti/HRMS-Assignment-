@@ -39,26 +39,26 @@ To run the Employee Management System on your local machine, follow these steps:
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/ShivankK26/Employee-Management-System .
+   git clone https://github.com/Padmakondeti/HRMS-Assignment-.git.
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd Employee-Management-System
+   cd HRMS-Assignment
    ```
 
-3. Install server-side dependencies:
+3. Install Backend dependencies:
 
    ```bash
-   cd server
-   npm install
+   - `npm i express pg sequelize sequelize-cli bcrypt jsonwebtoken dotenv`
+   - `npm i -D nodemon`
    ```
 
-4. Install client-side dependencies:
+4. Install Frontend dependencies:
 
    ```bash
-   cd ../client
+   cd ../frontend
    npm install
    ```
 
@@ -67,24 +67,24 @@ To run the Employee Management System on your local machine, follow these steps:
 6. Start the backend server:
 
    ```bash
-   cd ../server
+   cd ../backend
    nodemon index.js
    ```
 
 7. Start the frontend application:
 
    ```bash
-   cd ../client
+   cd ../frontend
    npm run dev
    ```
 
-8. Access the Employee Management System in your browser at `http://localhost:5173`.
+8. Access the Human Resource Management System in your browser at `http://localhost:5432`.
 
 ## Usage
 
 Once the application is running, you can perform the following actions:
 
-- **Create Employee**: Click on the "Add Employee" button to create a new employee record.
+- **Create Employee**: Click on the "Add Employee" button to create a new employee record in the system.
 - **Read Employee**: View the list of existing employees along with their details.
 - **Update Employee**: Click on the "Edit" button next to an employee record to modify the details.
 - **Delete Employee**: Click on the "Delete" button to remove an employee from the system.
