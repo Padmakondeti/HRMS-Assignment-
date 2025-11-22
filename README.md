@@ -97,7 +97,7 @@ To run the Employee Management System on your local machine, follow these steps:
 - Git
 - Code editor (VS Code)
 - Postman or curl (API testing)
-- Terminal / Node package manager (npm)
+- Node package manager (npm)
 
 **Files / ports**
 
