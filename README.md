@@ -14,9 +14,10 @@ A Human Resource Management System (HRMS) is a software solution that automates 
 
 ## User Interface
 
-![Homepage](public/img/screenshots/Welcome.jpeg)
+![Welcome](public/img/screenshots/Welcome.jpeg "Welcome Page")
 
-![Login](public/img/screenshots/Login.jpeg)
+![Login](public/img/screenshots/Login.jpeg "Login Page")
+
 
 ## Features
 
