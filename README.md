@@ -1,9 +1,22 @@
 # Human Resource Management System (HRMS)
 
-![Screenshot 2024-02-08 at 4 43 23 PM](https://github.com/Padmakondeti/Employee-Management-System/assets/125369851/13db7754-3a15-43e3-8951-c69b686982b9)
+## Table of Contents
+- [Overview](#overview)
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Technologies](#technologies)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-
+## Overview
 A Human Resource Management System (HRMS) is a software solution that automates and centralizes core human resources functions, such as payroll, benefits administration, and time tracking, to manage the entire employee lifecycle from hiring to offboarding.
+
+## User Interface
+
+![Homepage](public/img/screenshots/Welcome.jpeg "Home Page")
+
+![Login](public/img/screenshots/Login.jpeg "Login Page")
 
 ## Features
 
@@ -12,27 +25,9 @@ A Human Resource Management System (HRMS) is a software solution that automates 
 - **Update**: Modify employee details such as name, position, and contact information, etc.
 - **Delete**: Remove employee records from the system.
 
-## **Languages & frameworks**
-
-- **Backend**: Express.js - Backend framework for handling HTTP requests and routing.
-- **Frontend**: React.js - Frontend library for building user interfaces.
-- **Node.js**: JavaScript runtime environment for server-side development.
-- **MongoDB**: NoSQL database for storing employee information..
-- **Authentication**: JSON Web Tokens (JWT) and bcrypt for password hashing.
-
-**Tools**
-
-- Git
-- Code editor (VS Code)
-- Postman or curl (API testing)
-- Terminal / Node package manager (npm)
-
-**Files / ports**
-
-- Backend default port: `5000`
-- Frontend default port: `3000`
-
-## Installation
+## Getting Started <br/>
+ 
+   <h2>Installation</h2>
 
 To run the Employee Management System on your local machine, follow these steps:
 
@@ -80,6 +75,28 @@ To run the Employee Management System on your local machine, follow these steps:
 
 8. Access the Human Resource Management System in your browser at `http://localhost:5432`.
 
+## Technologies Used <br/>
+
+   <h2>Languages & frameworks</h2>
+
+- **Backend**: Express.js - Backend framework for handling HTTP requests and routing.
+- **Frontend**: React.js - Frontend library for building user interfaces.
+- **Node.js**: JavaScript runtime environment for server-side development.
+- **MongoDB**: NoSQL database for storing employee information..
+- **Authentication**: JSON Web Tokens (JWT) and bcrypt for password hashing.
+
+**Tools**
+
+- Git
+- Code editor (VS Code)
+- Postman or curl (API testing)
+- Terminal / Node package manager (npm)
+
+**Files / ports**
+
+- Backend default port: `5000`
+- Frontend default port: `3000`
+
 ## Usage
 
 Once the application is running, you can perform the following actions:
@@ -91,13 +108,19 @@ Once the application is running, you can perform the following actions:
 
 ## Contributing
 
-Contributions to the Employee Management System are welcome! To contribute:
+Contributions to the Human Resource Management System are welcome! To contribute:
 
 1. Fork the repository.
 2. Create a new branch for your feature or bug fix.
 3. Make your changes and ensure tests pass.
 4. Submit a pull request detailing the changes made and any relevant information.
 
+## License
+This project currently does not have a license.
+
 ---
 
-Manage your employee records efficiently with the Employee Management System built using the powerful MERN stack. Simplify CRUD operations and streamline your workflow today!
+Manage your employee records efficiently with the Human Resource Management System built using the powerful MERN stack. Simplify CRUD operations and streamline your workflow today!
+
+
+
